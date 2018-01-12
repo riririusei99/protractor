@@ -10,6 +10,5 @@ describe('My First Test', function() {
     browser.wait(EC.titleContains('riririusei99'), 5000);
 
     expect(browser.getTitle()).toEqual('riririusei99 の検索結果 - TeamSpirit Developer Blog');
-
   });
 });
